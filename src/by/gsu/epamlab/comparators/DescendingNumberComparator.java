@@ -1,13 +1,13 @@
 package by.gsu.epamlab.comparators;
 
-import by.gsu.epamlab.beans.Interval;
+import by.gsu.epamlab.beans.NumLen;
 
 import java.util.Comparator;
 
-public class DescendingNumberComparator  implements Comparator<Interval>{
+public class DescendingNumberComparator  implements Comparator<NumLen>{
 
     @Override
-    public int compare(Interval first, Interval second) {
+    public int compare(NumLen first, NumLen second) {
         return second.getNumber() - first.getNumber();
     }
 }
